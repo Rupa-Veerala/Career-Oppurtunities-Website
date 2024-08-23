@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrameX - Career Oppurtunities Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <h1>FrameX - Career Oppurtunities</h1>
+        <p>Your gateway to valuable internship opportunities</p>
+      </div>
+      <div class="button" >
+        <p href="#contactus">Contact Us</p>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="picanddesc">
+        <div class="pic"><img src="https://www.job-hunt.org/wp-content/uploads/2021/05/Build-Your-Personal-SEO-The-25-Best-Keywords-for-You-in-Your-Job-Search.png" alt="logo" height="350px"/></div>
+        <div class="desc">
+            <p>Our platform connects talented students with leading companies for
+                valuable internship opportunities. Join us to kickstart your career!</p>
+        </div>
+      </div>
+      <div class="login">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+          <div class="input-group">
+            <label for="email">Email/UserID:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="top-recruiters">
+      <div class="top-recruiters-container">
+        <h2>Top Recruiters</h2>
+        <ul>
+          <li>Company A</li>
+          <li>Company B</li>
+          <li>Company C</li>
+          <!-- Add more companies as needed -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="top-placed-candidates">
+      <div class="top-placed-candidates-container">
+        <h2>Success Stories</h2>
+        <p>
+          Read about our top placed candidates and their internship experiences
+          that paved the way for their career success.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="contact-us-container">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+          <div class="input-group">
+            <label for="issue">Describe Your Issue:</label>
+            <textarea id="issue" name="issue" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    
+    <div class="email">
+      <input type="email" id="email" name="email" placeholder="Email" required>
+    </div>
+    <div class="password">
+    
+    <input type="password" id="password" name="password" placeholder="Password" required>
+    </div>
+    <button type="submit">Sign In</button>
+  
+
+    <footer>
+      <div class="testimonials">
+        <h2>Testimonials</h2>
+        <p>Here are some testimonials from our satisfied users:</p>
+        <blockquote>
+          "This internship platform helped me land my dream internship!"
+          <cite>- John Doe</cite>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

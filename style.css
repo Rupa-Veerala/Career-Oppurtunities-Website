@@ -1,0 +1,144 @@
+*{
+    border: 0;
+    margin: 0;
+}
+header{
+    background-color: #000;
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo h1 {
+    font-size: 24px;
+}
+.button {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button p {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Styles for the home section */
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles for the picanddesc container */
+.picanddesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Styles for the pic */
+.pic {
+    background-color: #ccc; /* Placeholder background color */
+    margin-right: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 20px;
+    
+}
+
+.desc {
+    width: 500px;
+}
+
+/* Styles for the login container */
+.login {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; 
+}
+
+/* Styles for the input fields */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+sign in .label{
+    font-size: larger;
+    color: #29323c;
+  }
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: unset;
+  }
+button{
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+
+sign in .label{
+    font-size: larger;
+    color: #29323c;
+    text-align: center;
+  }
+  .signup{
+    justify-content: center;
+    border: #29323c;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+  }
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: unset;
+    text-align: center;
+  }
+button{
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+}
+button:hover{
+    text-align: center;
+    color: skyblue;
+    border-radius: 20px;
+    font-size: medium;
+    
+}
